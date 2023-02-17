@@ -5,18 +5,15 @@
     <artifactId>microservices-demo</artifactId>
     <version>2.1.0.RELEASE</version>
     <packaging>jar</packaging>
-
     <properties>
         <!-- Stand-alone RESTFul application for testing only -->
-        <start-class>io.pivotal.microservices.services.Main</start-class>
+        <start-class>com.imejodercefi.microservices.services.Main</start-class>
     </properties>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.4.2</version>
     </parent>
-
     <dependencies>
         <dependency>
             <!-- Setup Spring Boot -->
